@@ -1,0 +1,107 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #F7F7F7;
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-image: radial-gradient(circle, rgb(21, 31, 68), rgb(0, 12, 25));
+    
+}
+
+.bg {
+    background-color: red;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    background-color:rgb(112, 112, 112);
+    left: 40%;
+    width: 20%;
+    position: relative;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: rgb(76, 76, 76);
+    border-radius: 16px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    width: 400px;
+    left: 33%;
+    opacity: 0.9;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.profile span {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/* Center the profile container */
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #F5F5F5;
+}
+
+/* Style the circular image */
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the text below the image */
+.profile-info {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Style the username */
+.username {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Style the email */
+.email {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Add a border to the profile container */
+.profile-container {
+    border: 2px solid #DDD;
+    border-radius: 10px;
+    padding: 50px;
+}
